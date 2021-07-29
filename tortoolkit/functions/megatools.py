@@ -1,9 +1,6 @@
 
 from megasdkrestclient import MegaSdkRestClient, errors, constants
 
-async def init_mega_client(holder = [], return_pr=False):
-    if len(holder) == 0:
-        MEGA_API = get_val("MEGA_API")
         MEGA_UNAME = get_val("MEGA_UNAME")
         MEGA_PASS = get_val("MEGA_PASS")
         

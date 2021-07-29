@@ -13,10 +13,7 @@ from megasdkrestclient import MegaSdkRestClient, errors, constants
             torlog.warn("Mega Username not specified")
         
         if MEGA_PASS is None:
-            anon = True
-            torlog.warn("Mega Password not specified")
-        
-        if anon:
+
             torlog.info("Mega running in Anon mode.")
             
         else:

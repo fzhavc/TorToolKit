@@ -28,7 +28,7 @@ Following are some awesome features offered by this bot:-
 - Using the best torrent client to deal with torrent : [qBittorrent](https://github.com/qbittorrent/qBittorrent)
 - You can choose which files you want to download from the torrent.
 - A glorious settings menu from you can control the bot.
-- If the bot is in the group, the users have their own settings like:
+- If the bot isin the group, the users have their own settings like:
   - Permanent thumbnail support.
   - Users can choose if they want a file or video.
   - Load in their own rclone config so that the torrent/direct link is uploaded to their drive. (Work in Progress)

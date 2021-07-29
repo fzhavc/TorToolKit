@@ -1,8 +1,4 @@
 
-        return holder[1]
-    else:
-        return holder[0]
-
 
 async def megadl(link, update_msg, user_msg):
     mega_client = await init_mega_client()

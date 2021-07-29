@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
 
-import logging
 import math
 import os
 import time

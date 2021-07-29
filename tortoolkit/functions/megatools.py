@@ -3,8 +3,6 @@ from megasdkrestclient import MegaSdkRestClient, errors, constants
 
             return None
         
-        pr = Popen(["megasdkrest", "--apikey", MEGA_API,"--port", "8200"])
-        await asyncio.sleep(5)
 
         
         anon = False

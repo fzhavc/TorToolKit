@@ -1,9 +1,7 @@
 import time
 import os
 from megasdkrestclient import MegaSdkRestClient, errors, constants
-from ..core.getVars import get_val
-from subprocess import Popen
-import logging
+
 import asyncio
 import pathlib
 from ..core.status.status import MegaDl

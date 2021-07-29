@@ -1,8 +1,4 @@
-
-    
-    dl_info = mega_client.getDownloadInfo(dl_add_info["gid"])
-    
-    dl_task = MegaDl(dl_add_info, dl_info, update_msg, mega_client)
+dl_task = MegaDl(dl_add_info, dl_info, update_msg, mega_client)
     await dl_task.set_original_mess(user_msg)
 
     while True:

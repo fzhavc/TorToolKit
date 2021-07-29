@@ -25,7 +25,7 @@ def human_readable_timedelta(seconds, precision = 0):
     
 
     if value.days:
-        pieces.append(f"{value.days}d")
+       
 
     seconds = value.seconds
 

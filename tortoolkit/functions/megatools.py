@@ -1,7 +1,4 @@
 
-        holder.append(pr)
-    
-    if return_pr:
         return holder[1]
     else:
         return holder[0]

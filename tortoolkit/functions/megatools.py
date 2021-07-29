@@ -1,8 +1,6 @@
 
 from megasdkrestclient import MegaSdkRestClient, errors, constants
 
-import pathlib
-from ..core.status.status import MegaDl
 
 torlog = logging.getLogger(__name__)
 

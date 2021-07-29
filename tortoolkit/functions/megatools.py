@@ -1,7 +1,4 @@
 
-        else:
-            torlog.info("Mega running in Logged in mode.")
-
                 torlog.error("Mega login failed.")
                 torlog.info("Started in anon mode.")
         holder.append(mega_client)

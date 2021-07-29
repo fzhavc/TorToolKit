@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 # (c) Shrimadhav U K + YashDK [yash-dk@github] 
 
-# the logging things
-import logging, asyncio
-
 import math
 import os
 import time

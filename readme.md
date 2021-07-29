@@ -3,7 +3,7 @@
 # TorToolkit Telegram
 So basically Totoolkit is aimed to be the mot versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time
 The bot gets started with minimum vaiables and otrs can be set as and when needed using the /settings.
-## Use master branch if youencounter some issues and report the same.
+## Use master branch if youencounter some issues andreport the same.
 ## Use beta branch if you wanto ry latest features.
 
 ## For any help join this:- [TTKDISC](https://t.me/ttkdisc)

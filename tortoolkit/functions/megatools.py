@@ -21,10 +21,7 @@ from megasdkrestclient import MegaSdkRestClient, errors, constants
             
         else:
             torlog.info("Mega running in Logged in mode.")
-            
-            try:
-                mega_client.login(MEGA_UNAME, MEGA_PASS)
-            except:
+
                 torlog.error("Mega login failed.")
                 torlog.info("Started in anon mode.")
         holder.append(mega_client)

@@ -1,5 +1,4 @@
-import time
-import os
+
 from megasdkrestclient import MegaSdkRestClient, errors, constants
 
 import pathlib

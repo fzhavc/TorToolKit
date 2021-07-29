@@ -2,7 +2,7 @@ try:
     from .ExecVars import ExecVars
 except:
     class ExecVars:
-        # Set true if its VPS
+        # Set true if its VPS-GCp
         IS_VPS = False
         
         API_HASH = ""

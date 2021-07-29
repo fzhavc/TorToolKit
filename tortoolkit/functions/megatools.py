@@ -1,4 +1,4 @@
-await dl_task.set_original_mess(user_msg)
+
 
     while True:
         dl_info = mega_client.getDownloadInfo(dl_add_info["gid"])

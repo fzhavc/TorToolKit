@@ -1,7 +1,4 @@
 
-                await dl_task.refresh_info(dl_info)
-                await dl_task.update_message()
-                await asyncio.sleep(get_val("EDIT_SLEEP_SECS"))
             except Exception as e:
                 torlog.info(e)
         else:

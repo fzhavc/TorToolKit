@@ -1,6 +1,5 @@
 
 
-            anon = True
             torlog.warn("Mega Username not specified")
         
         if MEGA_PASS is None:

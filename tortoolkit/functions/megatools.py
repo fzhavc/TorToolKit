@@ -1,6 +1,4 @@
 
-    pathlib.Path(path).mkdir(parents=True, exist_ok=True) 
-    dl_add_info = mega_client.addDl(link, path)
     
     dl_info = mega_client.getDownloadInfo(dl_add_info["gid"])
     

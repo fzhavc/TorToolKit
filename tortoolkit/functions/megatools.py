@@ -1,7 +1,4 @@
 
-                torlog.error("Mega login failed.")
-                torlog.info("Started in anon mode.")
-        holder.append(mega_client)
         holder.append(pr)
     
     if return_pr:

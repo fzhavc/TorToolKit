@@ -88,5 +88,3 @@ async def megadl(link, update_msg, user_msg):
 
 
 async def remove_mega_dl(gid):
-    mega_client = await init_mega_client()
-    mega_client.cancelDl(gid)

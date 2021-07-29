@@ -1,7 +1,4 @@
 
-
-    while True:
-        dl_info = mega_client.getDownloadInfo(dl_add_info["gid"])
         if dl_info["state"] not in [constants.State.TYPE_STATE_CANCELED,constants.State.TYPE_STATE_FAILED]:
             if dl_info["state"] == constants.State.TYPE_STATE_COMPLETED:
                 await dl_task.set_done()

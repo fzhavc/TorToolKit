@@ -1,9 +1,6 @@
 
 from megasdkrestclient import MegaSdkRestClient, errors, constants
 
-
-torlog = logging.getLogger(__name__)
-
 async def init_mega_client(holder = [], return_pr=False):
     if len(holder) == 0:
         MEGA_API = get_val("MEGA_API")

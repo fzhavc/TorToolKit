@@ -1,8 +1,5 @@
 
 
-async def megadl(link, update_msg, user_msg):
-    mega_client = await init_mega_client()
-
     path = os.path.join(os.getcwd(), "Downloads", str(time.time()).replace(".",""))
     pathlib.Path(path).mkdir(parents=True, exist_ok=True) 
     dl_add_info = mega_client.addDl(link, path)

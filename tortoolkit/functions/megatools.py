@@ -2,7 +2,6 @@ import time
 import os
 from megasdkrestclient import MegaSdkRestClient, errors, constants
 
-import asyncio
 import pathlib
 from ..core.status.status import MegaDl
 

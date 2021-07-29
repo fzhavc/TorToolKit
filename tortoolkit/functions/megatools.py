@@ -1,7 +1,4 @@
 
-                await asyncio.sleep(2)
-                return dl_task
-            try:
                 await dl_task.refresh_info(dl_info)
                 await dl_task.update_message()
                 await asyncio.sleep(get_val("EDIT_SLEEP_SECS"))

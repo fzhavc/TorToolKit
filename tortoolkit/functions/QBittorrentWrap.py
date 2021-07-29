@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 # (c) YashDK [yash-dk@github]
 
-import qbittorrentapi as qba
-import asyncio as aio
-import os,logging,traceback,time
-from datetime import datetime,timedelta
+
 from . import Hash_Fetch
 from .Human_Format import human_readable_bytes,human_readable_timedelta 
 from ..core.getVars import get_val

@@ -1,7 +1,5 @@
 
 
-        if MEGA_PASS is None:
-
             torlog.info("Mega running in Anon mode.")
             
         else:

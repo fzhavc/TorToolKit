@@ -1,6 +1,4 @@
 
-                await dl_task.set_done()
-                await update_msg.edit("Download Complete.")
                 await asyncio.sleep(2)
                 return dl_task
             try:

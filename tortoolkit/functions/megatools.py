@@ -1,7 +1,4 @@
 
-
-            torlog.info("Mega running in Anon mode.")
-            
         else:
             torlog.info("Mega running in Logged in mode.")
 

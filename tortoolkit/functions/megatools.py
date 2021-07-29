@@ -1,9 +1,7 @@
 
 from megasdkrestclient import MegaSdkRestClient, errors, constants
 
-        MEGA_UNAME = get_val("MEGA_UNAME")
-        MEGA_PASS = get_val("MEGA_PASS")
-        
+
         if MEGA_API is None:
             return None
         

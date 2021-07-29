@@ -1,11 +1,4 @@
-
-from megasdkrestclient import MegaSdkRestClient, errors, constants
-
-            return None
-        
-
-        
-        anon = False
+anon = False
         if MEGA_UNAME is None:
             anon = True
             torlog.warn("Mega Username not specified")

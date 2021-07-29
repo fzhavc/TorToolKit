@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-
-import asyncio,shlex,os,logging,time
 from typing import Union,Optional,List,Tuple
 
 # ref https://info.nrao.edu/computing/guide/file-access-and-archiving/7zip/7z-7za-command-line-guide

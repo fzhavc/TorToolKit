@@ -5,7 +5,7 @@ from megasdkrestclient import MegaSdkRestClient, errors, constants
         
         pr = Popen(["megasdkrest", "--apikey", MEGA_API,"--port", "8200"])
         await asyncio.sleep(5)
-        mega_client = MegaSdkRestClient("http://localhost:8200")
+        mega_client = MegaSdkRestClient("http://local
         
         anon = False
         if MEGA_UNAME is None:

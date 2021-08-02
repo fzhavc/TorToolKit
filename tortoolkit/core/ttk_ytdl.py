@@ -20,7 +20,7 @@ torlog = logging.getLogger(__name__)
             return func(*args,**kwargs)
         except Exception as e:
             torlog.error(e)
-            return
+
     return wrap_func
 
 async def cli_call(cmd: Union[str,List[str]]) -> Tuple[str,str]:

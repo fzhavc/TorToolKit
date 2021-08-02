@@ -4,7 +4,7 @@ class Commands:
     PAUSEALL = "pausall"
     RESUMEALL = "resmeall"
     STATUS = "status"
-    SETTINGS = "settings"
+    SETTINGS = "settngs"
     EXEC = "exec"
     UPLOAD = "upload"
     YTDL = "ytdl"

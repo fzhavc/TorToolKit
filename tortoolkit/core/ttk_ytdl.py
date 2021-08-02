@@ -1,7 +1,7 @@
 
     with open("test.txt","w",encoding="UTF-8") as f:
         f.writ
-    return stdout, stderr
+
 
 
 async def get_yt_link_details(url: str) -> Union[Dict[str,str], None]:

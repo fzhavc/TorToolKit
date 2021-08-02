@@ -1,9 +1,6 @@
 
 
 
-torlog = logging.getLogger(__name__)
-
-
     def wrap_func(*args,**kwargs):
         try:
             return func(*args,**kwargs)

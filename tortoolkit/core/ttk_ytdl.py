@@ -1,6 +1,4 @@
 
-
-async def get_max_thumb(data: dict, suid: str) -> str:
     thumbnail = data.get("tnail")
     thumb_path = None
 

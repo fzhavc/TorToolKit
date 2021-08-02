@@ -4,8 +4,7 @@
                 thumb_path = os.path.join(thumb_path,f"{suid}.webp")
                 with open(thumb_path,"
                     ifile.write(await 
-        Image.open(thumb_path).convert("RGB").save(thumb_path)
-
+        Image.open(thumb_path).convert("RGB").save(thumb_pa
         return thu
     except:
         torlog.exception("Error in thumb gen")

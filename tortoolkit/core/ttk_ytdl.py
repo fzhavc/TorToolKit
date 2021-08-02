@@ -1,7 +1,4 @@
 
-
-        async with aiohttp.ClientSession() as session:
-            async with session.get(thumbnail) as resp:
                 thumb_path = os.path.join(os.getcwd(),"userdata")
                 if not os.path.exists(thumb_path):
                     os.mkdir(thumb_path)

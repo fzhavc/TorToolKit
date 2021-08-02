@@ -5,7 +5,7 @@ class Commands:
     RESUMEALL = "res"
     SETTINGS = "setngs"
     EXEC = "exec"
-    UPLOAD = "uplad"
+    UPLOAD = "upl"
     YTDL = "dl"
     PYTDL = "pytdl"
     ABOUT = "abot"

@@ -1,7 +1,4 @@
 
-    elif isinstance(cmd,(list,tuple)):
-        pass
-    else:
 
     
     process = await asyncio.create_subprocess_exec(

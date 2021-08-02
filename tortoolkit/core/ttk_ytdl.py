@@ -1,6 +1,4 @@
 
-# (c) YashDK [yash-dk@github]
-
 import asyncio,shlex,logging,time,os,aiohttp,shutil
 import json, time, asyncio
 from telethon.hints import MessageLike

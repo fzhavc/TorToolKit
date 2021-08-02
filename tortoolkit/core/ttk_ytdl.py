@@ -1,6 +1,4 @@
 
-
-            return func(*args,**kwargs)
         except Exception as e:
             torlog.error(e)
 

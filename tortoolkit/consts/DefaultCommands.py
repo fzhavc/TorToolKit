@@ -2,7 +2,7 @@ class Commands:
     LEECH = "l"
     PURGE = "p"
     PAUSEALL = "pausall"
-    RESUMEALL = "resumeall"
+    RESUMEALL = "resmeall"
     STATUS = "status"
     SETTINGS = "settings"
     EXEC = "exec"

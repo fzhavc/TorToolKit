@@ -1,5 +1,4 @@
 
-    cmd.append(url)
     
     out, error = await cli_call(cmd)
     if error:

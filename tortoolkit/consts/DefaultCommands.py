@@ -3,7 +3,7 @@ class Commands:
     PURGE = "p"
     PAUSEALL = "pausal"
     RESUMEALL = "res"
-    SETTINGS = "settngs"
+    SETTINGS = "setngs"
     EXEC = "exec"
     UPLOAD = "uplad"
     YTDL = "dl"

@@ -1,6 +1,4 @@
 
-    out = "[" + out + "]"
-    try:
         return json.loads(out)[0], None
     except:
         torlog.exception("Error occured while parsing the json.\n")

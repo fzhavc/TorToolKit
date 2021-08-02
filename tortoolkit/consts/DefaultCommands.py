@@ -1,7 +1,7 @@
 class Commands:
     LEECH = "l"
     PURGE = "p"
-    PAUSEALL = "pausall"
+    PAUSEALL = "pausal"
     RESUMEALL = "res"
     SETTINGS = "settngs"
     EXEC = "exec"

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 # (c) YashDK [yash-dk@github]
 
 import asyncio,shlex,logging,time,os,aiohttp,shutil

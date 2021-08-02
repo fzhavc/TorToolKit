@@ -7,7 +7,7 @@
 
         Image.open(thumb_path).convert("RGB").save(thumb_path)
 
-        return thumb_path
+        return thumb_
     except:
         torlog.exception("Error in thumb gen")
         return None

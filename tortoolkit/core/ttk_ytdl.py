@@ -29,7 +29,7 @@ async def cli_call(cmd: Union[str,List[str]]) -> Tuple[str,str]:
     elif isinstance(cmd,(list,tuple)):
         pass
     else:
-        return None,None
+
     
     process = await asyncio.create_subprocess_exec(
         *cmd,

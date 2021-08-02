@@ -1,7 +1,4 @@
 
-
-    if isinstance(cmd,str):
-        cmd = shlex.split(cmd)
     elif isinstance(cmd,(list,tuple)):
         pass
     else:

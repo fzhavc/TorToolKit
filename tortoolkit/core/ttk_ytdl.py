@@ -1,10 +1,4 @@
-
-
-    
-    process = await asyncio.create_subprocess_exec(
-        *cmd,
-        stderr=asyncio.subprocess.PIPE,
-        stdout=asyncio.subprocess.PIPE
+t=asyncio.subprocess.PIPE
     )
 
     stdout, stderr = await process.communicate()

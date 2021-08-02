@@ -1,7 +1,4 @@
 
-    thumb_path = None
-
-    # alot of context management XD
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(thumbnail) as resp:

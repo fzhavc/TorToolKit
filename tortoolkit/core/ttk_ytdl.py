@@ -1,5 +1,4 @@
 
-    thumbnail = data.get("tnail")
     thumb_path = None
 
     # alot of context management XD

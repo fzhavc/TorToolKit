@@ -1,7 +1,4 @@
 
-
-
-async def get_yt_link_details(url: str) -> Union[Dict[str,str], None]:
     cmd = "youtube-dl --no-warnings --youtube-skip-dash-manifest --dump-json"
     cmd = shlex.split(cmd)
     if "hotstar" in url:

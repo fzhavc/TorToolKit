@@ -10,7 +10,7 @@ from ..functions.tele_upload import upload_handel
 from ..core.getVars import get_val
 from ..functions.rclone_upload import get_config,rclone_driver
 from functools import partial
-from PIL import Image
+
 
 torlog = logging.getLogger(__name__)
 

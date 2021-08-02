@@ -16,5 +16,5 @@ class Commands:
     START = "start"
     USTATUS = "ustatus"
     SETTHUMB = "setthumb"
-    CLRTHUMB = "clearthumb"
+    CLRTHUMB = "clearthmb"
     SPEEDTEST = "speedtest"

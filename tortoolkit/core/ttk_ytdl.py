@@ -1,5 +1,4 @@
 
-from ..core.getVars import get_val
 from ..functions.rclone_upload import get_config,rclone_driver
 from functools import partial
 

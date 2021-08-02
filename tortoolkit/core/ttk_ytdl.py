@@ -1,6 +1,4 @@
 
-    stderr = stderr.decode().strip()
-
     with open("test.txt","w",encoding="UTF-8") as f:
         f.writ
     return stdout, stderr

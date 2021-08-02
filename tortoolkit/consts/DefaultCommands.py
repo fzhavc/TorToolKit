@@ -8,7 +8,7 @@ class Commands:
     UPLOAD = "uplad"
     YTDL = "dl"
     PYTDL = "pytdl"
-    ABOUT = "about"
+    ABOUT = "abot"
     GETLOGS = "getlogs"
     SERVER = "server"
     USERSETTINGS = "usettings"

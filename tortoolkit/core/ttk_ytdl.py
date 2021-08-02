@@ -1,7 +1,6 @@
 
               
-                    os.mkdir(thumb_path)
-
+                    os.mkdir(thumb_pa
                 thumb_path = os.path.join(thumb_path,f"{suid}.webp")
                 with open(thumb_path,"wb") as ifile:
                     ifile.write(await resp.read())

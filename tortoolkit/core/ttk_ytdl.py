@@ -1,8 +1,4 @@
-t=asyncio.subprocess.PIPE
-   
-    stdout, stderr = await process.communicate()
-    
-    stdout = stdout.decode().strip()
+
     stderr = stderr.decode().strip()
 
     with open("test.txt","w",encoding="UTF-8") as f:

@@ -3,8 +3,7 @@
                     os.mkdir(thumb_pa
                 thumb_path = os.path.join(thumb_path,f"{suid}.webp")
                 with open(thumb_path,"wb") as 
-                    ifile.write(await resp.read())
-
+                    ifile.write(await resp.re
         Image.open(thumb_path).convert("RGB").save(thumb_path)
 
         return thu

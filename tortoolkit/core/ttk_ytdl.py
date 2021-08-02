@@ -1,6 +1,4 @@
 
-    if "hotstar" in url:
-        cmd.append("--geo-bypass-country")
         cmd.append("IN")
     cmd.append(url)
     

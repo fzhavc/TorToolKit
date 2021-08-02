@@ -1,8 +1,5 @@
 
 
-
-    def wrap_func(*args,**kwargs):
-        try:
             return func(*args,**kwargs)
         except Exception as e:
             torlog.error(e)

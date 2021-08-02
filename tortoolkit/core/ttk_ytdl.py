@@ -1,6 +1,4 @@
 
-        except Exception as e:
-            torlog.error(e)
 
 n[str,List[str]]) -> Tuple[str,str]:
     if isinstance(cmd,str):

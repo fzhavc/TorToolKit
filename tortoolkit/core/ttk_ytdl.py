@@ -1,6 +1,5 @@
 
 
-n[str,List[str]]) -> Tuple[str,str]:
     if isinstance(cmd,str):
         cmd = shlex.split(cmd)
     elif isinstance(cmd,(list,tuple)):

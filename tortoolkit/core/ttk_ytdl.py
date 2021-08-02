@@ -14,9 +14,7 @@ from PIL import Image
 
 torlog = logging.getLogger(__name__)
 
-# attempt to decorate error prone areas
-import traceback
-def skipTorExp(func):
+
     def wrap_func(*args,**kwargs):
         try:
             return func(*args,**kwargs)

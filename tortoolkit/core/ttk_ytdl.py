@@ -1,6 +1,5 @@
 
-                thumb_path = os.path.join(os.getcwd(),"userdata")
-                if not os.path.exists(thumb_path):
+              
                     os.mkdir(thumb_path)
 
                 thumb_path = os.path.join(thumb_path,f"{suid}.webp")

@@ -6,7 +6,7 @@ class Commands:
     SETTINGS = "settngs"
     EXEC = "exec"
     UPLOAD = "upload"
-    YTDL = "ytdl"
+    YTDL = "dl"
     PYTDL = "pytdl"
     ABOUT = "about"
     GETLOGS = "getlogs"

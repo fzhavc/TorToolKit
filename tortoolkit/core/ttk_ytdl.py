@@ -1,6 +1,5 @@
 t=asyncio.subprocess.PIPE
-    )
-
+   
     stdout, stderr = await process.communicate()
     
     stdout = stdout.decode().strip()

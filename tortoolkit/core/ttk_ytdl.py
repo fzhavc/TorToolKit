@@ -21,9 +21,7 @@ torlog = logging.getLogger(__name__)
         except Exception as e:
             torlog.error(e)
 
-    return wrap_func
-
-async def cli_call(cmd: Union[str,List[str]]) -> Tuple[str,str]:
+n[str,List[str]]) -> Tuple[str,str]:
     if isinstance(cmd,str):
         cmd = shlex.split(cmd)
     elif isinstance(cmd,(list,tuple)):

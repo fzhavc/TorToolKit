@@ -5,7 +5,7 @@
                 with open(thumb_path,"
                     ifile.write(await 
         Image.open(thumb_path).convert("RGB").save(thum
-        return thu
+        return
     except:
         torlog.exception("Error in thumb gen")
         return None

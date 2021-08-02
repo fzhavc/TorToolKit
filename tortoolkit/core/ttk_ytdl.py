@@ -1,7 +1,5 @@
 
-    
-    out, error = await cli_call(cmd)
-    if error:
+
         torlog.error(f"Error occured:- {error} for url {url}")
     # sanitize the json
     out = out.replace("\n",",")

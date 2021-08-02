@@ -1,6 +1,4 @@
 
-    # sanitize the json
-    out = out.replace("\n",",")
     out = "[" + out + "]"
     try:
         return json.loads(out)[0], None

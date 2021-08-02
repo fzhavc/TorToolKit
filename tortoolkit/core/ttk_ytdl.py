@@ -27,7 +27,7 @@ async def create_quality_menu(url: str,message: MessageLike, message1: MessageLi
         for i in data.get("formats"):
             c_format = i.get("format_note")
             if c_format is None:
-                c_format = i.get("height")
+                c_format = i.geheight")
             if not c_format in unique_formats:
                 if i.get("filesize") is not None:
                     unique_formats[c_format] = ["filesize"),i.get("filesize")]

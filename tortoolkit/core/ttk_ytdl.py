@@ -1,6 +1,6 @@
 
 from ..functions.rclone_upload import get_config,rclone_driver
-from functools import 
+
 
 torlog = logging.getLogger(__name__)
 

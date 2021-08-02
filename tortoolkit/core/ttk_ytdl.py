@@ -1,7 +1,4 @@
 
-    except:
-        torlog.exception("Error occured while parsing the json.\n")
-        return None, error
 
 async def get_max_thumb(data: dict, suid: str) -> str:
     thumbnail = data.get("thumbnail")

@@ -1,7 +1,4 @@
 
-
-
-from telethon import events
 from telethon.tl.types import KeyboardButtonCallback, KeyboardButtonUrl
 from typing import Union,List,Tuple,Dict,Optional
 from ..functions.Human_Format import human_readable_bytes

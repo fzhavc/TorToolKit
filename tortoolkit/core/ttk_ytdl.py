@@ -1,5 +1,4 @@
 
-from ..functions.Human_Format import human_readable_bytes
 from ..functions.tele_upload import upload_handel
 from ..core.getVars import get_val
 from ..functions.rclone_upload import get_config,rclone_driver

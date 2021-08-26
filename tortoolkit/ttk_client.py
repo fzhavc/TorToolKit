@@ -1,4 +1,4 @@
-from telethon import TelegramClient
+
 import asyncio
 
 class TortkClient(TelegramClient):
